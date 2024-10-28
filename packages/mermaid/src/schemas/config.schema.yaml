@@ -298,7 +298,7 @@ properties:
     type: boolean
   fontSize:
     type: number
-    default: 16
+    default: 20
   markdownAutoWrap:
     type: boolean
     default: true
@@ -400,7 +400,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       personFontSize:
         description: This sets the font size of Person shape for the diagram
         type: &fontSizeType ['string', 'number'] # YAML anchor
-        default: 14
+        default: 20
       personFontFamily:
         description: This sets the font weight of Person shape for the diagram
         type: string
@@ -412,7 +412,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       external_personFontSize:
         description: This sets the font size of External Person shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       external_personFontFamily:
         description: This sets the font family of External Person shape for the diagram
         type: string
@@ -424,7 +424,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       systemFontSize:
         description: This sets the font size of System shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       systemFontFamily:
         description: This sets the font family of System shape for the diagram
         type: string
@@ -436,7 +436,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       external_systemFontSize:
         description: This sets the font size of External System shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       external_systemFontFamily:
         description: This sets the font family of External System shape for the diagram
         type: string
@@ -448,7 +448,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       system_dbFontSize:
         description: This sets the font size of System DB shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       system_dbFontFamily:
         description: This sets the font family of System DB shape for the diagram
         type: string
@@ -460,7 +460,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       external_system_dbFontSize:
         description: This sets the font size of External System DB shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       external_system_dbFontFamily:
         description: This sets the font family of External System DB shape for the diagram
         type: string
@@ -472,7 +472,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       system_queueFontSize:
         description: This sets the font size of System Queue shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       system_queueFontFamily:
         description: This sets the font family of System Queue shape for the diagram
         type: string
@@ -484,7 +484,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       external_system_queueFontSize:
         description: This sets the font size of External System Queue shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       external_system_queueFontFamily:
         description: This sets the font family of External System Queue shape for the diagram
         type: string
@@ -496,7 +496,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       boundaryFontSize:
         description: This sets the font size of Boundary shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       boundaryFontFamily:
         description: This sets the font family of Boundary shape for the diagram
         type: string
@@ -521,7 +521,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       containerFontSize:
         description: This sets the font size of Container shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       containerFontFamily:
         description: This sets the font family of Container shape for the diagram
         type: string
@@ -533,7 +533,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       external_containerFontSize:
         description: This sets the font size of External Container shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       external_containerFontFamily:
         description: This sets the font family of External Container shape for the diagram
         type: string
@@ -546,7 +546,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       container_dbFontSize:
         description: This sets the font size of Container DB shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       container_dbFontFamily:
         description: This sets the font family of Container DB shape for the diagram
         type: string
@@ -558,7 +558,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       external_container_dbFontSize:
         description: This sets the font size of External Container DB shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       external_container_dbFontFamily:
         description: This sets the font family of External Container DB shape for the diagram
         type: string
@@ -571,7 +571,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       container_queueFontSize:
         description: This sets the font size of Container Queue shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       container_queueFontFamily:
         description: This sets the font family of Container Queue shape for the diagram
         type: string
@@ -583,7 +583,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       external_container_queueFontSize:
         description: This sets the font size of External Container Queue shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       external_container_queueFontFamily:
         description: This sets the font family of External Container Queue shape for the diagram
         type: string
@@ -596,7 +596,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       componentFontSize:
         description: This sets the font size of Component shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       componentFontFamily:
         description: This sets the font family of Component shape for the diagram
         type: string
@@ -608,7 +608,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       external_componentFontSize:
         description: This sets the font size of External Component shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       external_componentFontFamily:
         description: This sets the font family of External Component shape for the diagram
         type: string
@@ -621,7 +621,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       component_dbFontSize:
         description: This sets the font size of Component DB shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       component_dbFontFamily:
         description: This sets the font family of Component DB shape for the diagram
         type: string
@@ -633,7 +633,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       external_component_dbFontSize:
         description: This sets the font size of External Component DB shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       external_component_dbFontFamily:
         description: This sets the font family of External Component DB shape for the diagram
         type: string
@@ -646,7 +646,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       component_queueFontSize:
         description: This sets the font size of Component Queue shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       component_queueFontFamily:
         description: This sets the font family of Component Queue shape for the diagram
         type: string
@@ -658,7 +658,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       external_component_queueFontSize:
         description: This sets the font size of External Component Queue shape for the diagram
         type: *fontSizeType
-        default: 14
+        default: 20
       external_component_queueFontFamily:
         description: This sets the font family of External Component Queue shape for the diagram
         type: string
@@ -916,7 +916,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
         default: 200
       fontSize:
         type: number # TODO, should this be `type: *fontSizeType` (aka string too)
-        default: 14
+        default: 20
       rect_padding:
         type: number
         default: 10
@@ -1123,7 +1123,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       labelFontSize:
         description: font size of the axis labels (tick text)
         type: number
-        default: 14
+        default: 20
         minimum: 1
       labelPadding:
         description: top and bottom space from axis label (tick text)
@@ -1518,7 +1518,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
         default: false
       taskFontSize:
         type: *fontSizeType
-        default: 14
+        default: 20
       taskFontFamily:
         type: string
         default: '"Open Sans", sans-serif'
@@ -1642,7 +1642,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
         default: false
       taskFontSize:
         type: *fontSizeType
-        default: 14
+        default: 20
       taskFontFamily:
         type: string
         default: '"Open Sans", sans-serif'
@@ -1905,7 +1905,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       actorFontSize:
         description: This sets the font size of the actor's description
         type: *fontSizeType
-        default: 14
+        default: 20
       actorFontFamily:
         description: This sets the font family of the actor's description
         type: string
@@ -1918,7 +1918,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
       noteFontSize:
         description: This sets the font size of actor-attached notes
         type: *fontSizeType
-        default: 14
+        default: 20
       noteFontFamily:
         description: This sets the font family of actor-attached notes
         type: string
@@ -2207,7 +2207,7 @@ $defs: # JSON Schema definition (maybe we should move these to a separate file)
         title: CSS Font Size
         description: The font size to use
         type: *fontSizeType
-        default: 14
+        default: 20
       fontFamily:
         description: The CSS [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) to use.
         type: string
